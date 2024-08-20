@@ -1,0 +1,117 @@
+{
+    "1": {
+        "total": 0.68,
+        "valor_entrada": 0.12,
+        "parcelas": [
+            {
+                "numero": 1,
+                "valor": 0.12,
+                "data_vencimento": "2024-08-20",
+                "entrada": true
+            },
+            {
+                "numero": 2,
+                "valor": 0.19,
+                "data_vencimento": "2024-09-01"
+            },
+            {
+                "numero": 3,
+                "valor": 0.19,
+                "data_vencimento": "2024-10-01"
+            },
+            {
+                "numero": 4,
+                "valor": 0.19,
+                "data_vencimento": "2024-11-01"
+            }
+        ]
+    },
+    "2": {
+        "total": 100,
+        "valor_entrada": 0,
+        "parcelas": [
+            {
+                "numero": 1,
+                "valor": 8.33,
+                "data_vencimento": "2024-09-01"
+            },
+            {
+                "numero": 2,
+                "valor": 8.33,
+                "data_vencimento": "2024-10-01"
+            },
+            {
+                "numero": 3,
+                "valor": 8.33,
+                "data_vencimento": "2024-11-01"
+            },
+            {
+                "numero": 4,
+                "valor": 8.33,
+                "data_vencimento": "2024-12-01"
+            },
+            {
+                "numero": 5,
+                "valor": 8.33,
+                "data_vencimento": "2025-01-01"
+            },
+            {
+                "numero": 6,
+                "valor": 8.33,
+                "data_vencimento": "2025-02-01"
+            },
+            {
+                "numero": 7,
+                "valor": 8.33,
+                "data_vencimento": "2025-03-01"
+            },
+            {
+                "numero": 8,
+                "valor": 8.33,
+                "data_vencimento": "2025-04-01"
+            },
+            {
+                "numero": 9,
+                "valor": 8.33,
+                "data_vencimento": "2025-05-01"
+            },
+            {
+                "numero": 10,
+                "valor": 8.33,
+                "data_vencimento": "2025-06-01"
+            },
+            {
+                "numero": 11,
+                "valor": 8.33,
+                "data_vencimento": "2025-07-01"
+            },
+            {
+                "numero": 12,
+                "valor": 8.33,
+                "data_vencimento": "2025-08-01"
+            }
+        ]
+    },
+    "3": {
+        "total": 0.3,
+        "valor_entrada": 0.1,
+        "parcelas": [
+            {
+                "numero": 1,
+                "valor": 0.1,
+                "data_vencimento": "2024-08-20",
+                "entrada": true
+            },
+            {
+                "numero": 2,
+                "valor": 0.1,
+                "data_vencimento": "2024-09-01"
+            },
+            {
+                "numero": 3,
+                "valor": 0.1,
+                "data_vencimento": "2024-09-08"
+            }
+        ]
+    }
+}
