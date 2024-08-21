@@ -55,6 +55,7 @@ Descrição: Este endpoint retorna as parcelas associadas a um carnê específic
 URL Parameters:
 
 id_carne (integer): O ID do carnê para o qual as parcelas serão retornadas.
+
 Exemplo de Request:
 http://localhost/carnes-api/index.php/carne/1/parcelas
 
