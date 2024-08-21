@@ -43,6 +43,9 @@ Request Body (JSON):
   "valor_entrada": 0.08
 }
 
+Exemplo de Request: 
+http://localhost/carnes-api/index.php/carne
+
 - Consultar Parcelas de um Carnê Específico -
 
 Endpoint: /carne/{id_carne}/parcelas
