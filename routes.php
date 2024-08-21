@@ -6,34 +6,34 @@ require_once 'helpers.php';
 
 function handleRoutes($method, $uriSegments) {
 
-  if (count($uriSegments) < 3) {
-      header("HTTP/1.1 404 Not Found");
-      echo "Rota não encontrada! ";
-      return;
-  }
+    if (count($uriSegments) < 3) {
+        header("HTTP/1.1 404 Not Found");
+        echo "Rota não encontrada! ";
+        return;
+    }
 
-  $apiSegment = $uriSegments[0];
-  $resourceSegment = $uriSegments[2];
+    $apiSegment = $uriSegments[0];
+    $resourceSegment = $uriSegments[2];
 
-  if ($apiSegment !== 'carnes-api') {
-      header("HTTP/1.1 404 Not Found");
-      echo "Rota não encontrada!";
-      return;
-  }
+    if ($apiSegment !== 'carnes-api') {
+        header("HTTP/1.1 404 Not Found");
+        echo "Rota não encontrada!";
+        return;
+    }
 
-  if ($method == 'POST' && $resourceSegment == 'carne') {
-      createCarne();
-  } elseif ($method == 'GET' && $resourceSegment == 'parcelas') {
-      if (isset($uriSegments[2])) {
-          getParcelas($uriSegments[3]);
-      } else {
-          header("HTTP/1.1 400 Bad Request");
-          echo "ID das parcelas não fornecido!";
-      }
-  } else {
-      header("HTTP/1.1 404 Not Found");
-      echo "Rota não encontrada!";
-  }
+    if ($method == 'POST' && $resourceSegment == 'carne') {
+        createCarne();
+    } elseif ($method == 'GET' && isset($uriSegments[4]) && $uriSegments[4] == 'parcelas') {
+        if (isset($uriSegments[3])) {
+            getParcelas($uriSegments[3]);
+        } else {
+            header("HTTP/1.1 400 Bad Request");
+            echo "ID da carne não fornecido!";
+        }
+    } else {
+        header("HTTP/1.1 404 Not Found");
+        echo "Rota não encontrada!";
+    }
 }
 
 function createCarne() {
