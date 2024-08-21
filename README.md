@@ -1,5 +1,5 @@
 # README #
-# Documentation for Carnes API #
+# Documentação Carnes API #
 
 # 1. Instalação e Configuração do XAMPP #
 XAMPP é um pacote de software gratuito que inclui o servidor Apache, PHP, MySQL, e outras ferramentas.
